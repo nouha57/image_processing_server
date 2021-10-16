@@ -2,7 +2,15 @@
 <html>
   <head>
     <title>Build an image processing server</title>
+    <script src="https://unpkg.com/expect@%3C21/umd/expect.min.js"></script>
+
   </head>
-  <body>
+  <body> 
+    <form action="/upload" method="post" enctype="multipart/form-data" >
+      <input class="file-input" type="file" name="photo">
+      <input class="submit-button" type="submit" value="Submit">
+
+    </form>
+
   </body>
 </html>
